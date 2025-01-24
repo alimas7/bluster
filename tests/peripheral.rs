@@ -20,7 +20,7 @@ use bluster::{
 };
 
 const ADVERTISING_NAME: &str = "hello";
-const ADVERTISING_TIMEOUT: Duration = Duration::from_secs(60);
+const ADVERTISING_TIMEOUT: Duration = Duration::from_secs(60*15);
 
 #[tokio::test]
 async fn it_advertises_gatt() {
